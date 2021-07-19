@@ -7,3 +7,7 @@ func Wtt() {
 }
 
 var Name string = "tom"
+
+func init() {
+	fmt.Println("wtt 准备就绪")
+}
