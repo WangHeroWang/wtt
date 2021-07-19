@@ -1,9 +1,13 @@
 package wtt
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/fatih/color"
+)
 
 func Wtt() {
-	fmt.Println("see you, this package is wtt for test go mod")
+	color.Red("see you, this package is wtt for test go mod")
 }
 
 var Name string = "tom"
